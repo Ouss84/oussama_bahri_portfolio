@@ -1,0 +1,15 @@
+{
+  "name": "oussama_bahri_portfolio",
+  "version": "1.0.0",
+  "description": "My first portfolio",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass": "node-sass -w scss/ -o deploy/css/ --recursive"
+  },
+  "author": "Oussama Bahri",
+  "license": "MIT"
+}
