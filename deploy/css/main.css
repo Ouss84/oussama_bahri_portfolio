@@ -1,2 +1,30 @@
+* {
+  box-sizing: border-box; }
+
 body {
-  background: white; }
+  background: white;
+  color: blue;
+  height: 100%;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5; }
+
+h1,
+h2 {
+  margin: 0;
+  font-weight: 400; }
+  h1.large-heading,
+  h2.large-heading {
+    font-size: 5rem; }
+  h1.small-heading,
+  h2.small-heading {
+    margin-bottom: 2rem;
+    padding: 0.2rem 1rem;
+    background: rgba(255, 255, 255, 0.5); }
+
+a {
+  color: gray;
+  text-decoration: none; }
+
+header {
+  position: fixed; }
