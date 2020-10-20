@@ -1,0 +1,20 @@
+.menu-button {
+  position: absolute;
+  right: 35px;
+  top: 35px;
+  z-index: 3;
+  cursor: pointer;
+  @include easeOut;
+  .button-line {
+    width: 28px;
+    height: 3px;
+    background: #fff;
+    margin: 0 0 5px 0;
+    @include easeOut;
+  }
+  //rotate the menu button
+  &.close {
+    transform: rotate(180deg);
+    //
+  }
+}

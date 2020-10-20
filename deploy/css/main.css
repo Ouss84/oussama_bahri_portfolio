@@ -1,3 +1,19 @@
+.menu-button {
+  position: absolute;
+  right: 35px;
+  top: 35px;
+  z-index: 3;
+  cursor: pointer;
+  transition: all 1.5s ease-out; }
+  .menu-button .button-line {
+    width: 28px;
+    height: 3px;
+    background: #fff;
+    margin: 0 0 5px 0;
+    transition: all 1.5s ease-out; }
+  .menu-button.close {
+    transform: rotate(180deg); }
+
 * {
   box-sizing: border-box; }
 
