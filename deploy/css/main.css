@@ -4,15 +4,98 @@
   top: 35px;
   z-index: 3;
   cursor: pointer;
-  transition: all 1.5s ease-out; }
+  transition: all 0.7s ease-out; }
   .menu-button .button-line {
     width: 28px;
-    height: 3px;
-    background: #fff;
+    height: 4px;
+    background: #03071e;
     margin: 0 0 5px 0;
-    transition: all 1.5s ease-out; }
+    transition: all 0.7s ease-out; }
   .menu-button.close {
     transform: rotate(180deg); }
+    .menu-button.close .button-line:nth-child(1) {
+      background: red;
+      height: 4px;
+      transform: rotate(45deg) translate(6px, 5px); }
+    .menu-button.close .button-line:nth-child(2) {
+      display: none; }
+    .menu-button.close .button-line:nth-child(3) {
+      background: red;
+      height: 4px;
+      transform: rotate(-45deg) translate(1px, 0px); }
+
+.menu {
+  opacity: 0.8;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  visibility: hidden; }
+  .menu.show {
+    visibility: visible; }
+  .menu-branding, .menu-nav {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 50%;
+    height: 100vh;
+    overflow: hidden; }
+  .menu-nav {
+    background: #bebebe;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 3;
+    list-style: none;
+    transform: translate3d(0, 100%, 0);
+    transition: all 0.7s ease-out; }
+    .menu-nav.show {
+      transform: translate3d(0, 0, 0); }
+  .menu-branding {
+    background: #4b4b4b;
+    transform: translate3d(0, -100%, 0);
+    transition: all 0.7s ease-out; }
+    .menu-branding .portrait img {
+      border-radius: 50%;
+      opacity: 1;
+      border: 3px solid #7a1818;
+      height: 13rem;
+      width: 13rem; }
+    .menu-branding.show {
+      transform: translate3d(0, 0, 0); }
+  .menu .nav-item {
+    transform: translate3d(600px, 0, 0);
+    transition: all 0.7s ease-out; }
+    .menu .nav-item.show {
+      transform: translate3d(0, 0, 0); }
+    .menu .nav-item.current > a {
+      color: #7a1818; }
+  .menu .nav-link {
+    display: inline-block;
+    position: relative;
+    font-size: 25px;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #03071e;
+    transition: all 0.7s ease-out; }
+    .menu .nav-link:hover {
+      color: #7a1818; }
+
+.nav-item:nth-child(1) {
+  transition-delay: 0.1s; }
+
+.nav-item:nth-child(2) {
+  transition-delay: 0.2s; }
+
+.nav-item:nth-child(3) {
+  transition-delay: 0.3s; }
+
+.nav-item:nth-child(4) {
+  transition-delay: 0.4s; }
 
 * {
   box-sizing: border-box; }
@@ -29,7 +112,7 @@ body {
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
-      content: '';
+      content: "";
       position: absolute;
       top: 0;
       right: 0;
@@ -72,7 +155,7 @@ main {
       padding: 0.5rem; }
       main .icons a:hover {
         color: #7a1818;
-        transition: all 1.5s ease-out; }
+        transition: all 0.7s ease-out; }
   main#home {
     overflow: hidden; }
     main#home h1 {
