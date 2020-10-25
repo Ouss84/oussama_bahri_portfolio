@@ -8,7 +8,7 @@
   .button-line {
     width: 28px;
     height: 4px;
-    background: $third-color;
+    background: set-text-color($primary-color);
     margin: 0 0 5px 0;
     @include easeOut;
   }
@@ -36,7 +36,7 @@
 
 //menu overlay
 .menu {
-  opacity: 0.8;
+  opacity: 0.9;
   position: fixed;
   top: 0;
   width: 100%;
@@ -103,12 +103,11 @@
     font-weight: 300;
     text-decoration: none;
     text-transform: uppercase;
-    color: $third-color;
+    color: set-text-color($primary-color);
     &:hover {
       color: $secondary-color;
     }
     @include easeOut;
-    
   }
 }
 

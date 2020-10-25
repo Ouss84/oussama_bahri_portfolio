@@ -25,7 +25,7 @@
       transform: rotate(-45deg) translate(1px, 0px); }
 
 .menu {
-  opacity: 0.8;
+  opacity: 0.9;
   position: fixed;
   top: 0;
   width: 100%;
@@ -129,7 +129,7 @@
 
 body {
   background: #e4e4e4;
-  color: #333;
+  color: #03071e;
   height: 100%;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;

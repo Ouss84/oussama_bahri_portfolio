@@ -1,4 +1,4 @@
-$primary-color: #e4e4e4;
+$primary-color:#e4e4e4;
 $secondary-color: #7a1818;
 $third-color: #03071e;
 $show-home-image: true;
@@ -49,5 +49,14 @@ $background-opacity: 0.3;
 @mixin mediaXl {
   @media screen and (min-width: 1171px) {
     @content;
+  }
+}
+
+//set color function
+@function set-text-color($color) {
+  @if (lightness($color) > 40) {
+    @return (#03071e);
+  } @else {
+    @return (#e4e4e4);
   }
 }
