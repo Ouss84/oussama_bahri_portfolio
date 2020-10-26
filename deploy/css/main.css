@@ -97,33 +97,6 @@
 .nav-item:nth-child(4) {
   transition-delay: 0.4s; }
 
-@media screen and (max-width: 500px) {
-  main#home h1 {
-    margin-bottom: 10vh; } }
-
-@media screen and (max-width: 768px) {
-  main {
-    text-align: center;
-    align-items: center; }
-    main .large -heading {
-      line-height: 1;
-      margin-bottom: 1rem; }
-  ul.menu-nav,
-  div.menu-branding {
-    float: none;
-    width: 100%;
-    min-height: 0; }
-    ul.menu-nav.show,
-    div.menu-branding.show {
-      transform: translate3d(0, 0, 0); }
-  .menu-nav {
-    height: 75vh;
-    transform: translate3d(-100, 0, 0);
-    font-size: 24px; }
-  .menu-branding {
-    height: 25vh;
-    transform: translate3d(100, 0, 0); } }
-
 * {
   box-sizing: border-box; }
 
@@ -154,7 +127,7 @@ h2 {
   font-weight: 400; }
   h1.large-heading,
   h2.large-heading {
-    font-size: 5rem; }
+    font-size: 4rem; }
   h1.small-heading,
   h2.small-heading {
     margin-bottom: 2rem;
@@ -175,7 +148,7 @@ header {
 
 main {
   padding: 4rem;
-  height: 100%; }
+  min-height: calc(100vh - 3rem); }
   main .icons {
     margin-top: 1rem; }
     main .icons a {
@@ -187,3 +160,65 @@ main {
     overflow: hidden; }
     main#home h1 {
       margin-top: 20vh; }
+
+.about-info {
+  display: grid;
+  margin: 30px;
+  grid-template-areas: "bioimage bio bio" "job1 job2 job3";
+  grid-template-columns: repeat(3, 1fr); }
+  .about-info .bio-image {
+    grid-area: bioimage;
+    border-radius: 50%;
+    margin: auto;
+    border: #7a1818 3px solid; }
+  .about-info .bio {
+    grid-area: bio;
+    font-size: 1rem; }
+  .about-info .job-1 {
+    grid-area: job1; }
+  .about-info .job-2 {
+    grid-area: job2; }
+  .about-info .job-3 {
+    grid-area: job3; }
+  .about-info .job {
+    background: #d7d7d7;
+    padding: 0.5rem;
+    border-bottom: #7a1818 solid 2px;
+    margin: 7px; }
+
+#main-footer {
+  text-align: center;
+  padding: 1rem;
+  background: #cbcbcb;
+  color: #03071e;
+  height: 3rem; }
+
+@media screen and (max-width: 500px) {
+  main#home h1 {
+    margin-bottom: 10vh; } }
+
+@media screen and (max-width: 768px) {
+  main {
+    text-align: center;
+    align-items: center; }
+    main .large -heading {
+      line-height: 1;
+      margin-bottom: 1rem; }
+  ul.menu-nav,
+  div.menu-branding {
+    float: none;
+    width: 100%;
+    min-height: 0; }
+    ul.menu-nav.show,
+    div.menu-branding.show {
+      transform: translate3d(0, 0, 0); }
+  .menu-nav {
+    height: 75vh;
+    transform: translate3d(-100, 0, 0);
+    font-size: 24px; }
+  .menu-branding {
+    height: 25vh;
+    transform: translate3d(100, 0, 0); }
+  .about-info {
+    grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
+    grid-template-columns: 1fr; } }

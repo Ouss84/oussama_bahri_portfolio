@@ -1,6 +1,5 @@
 @import "config";
 @import "menu";
-@import "media";
 
 * {
   box-sizing: border-box;
@@ -21,7 +20,7 @@ h2 {
   margin: 0;
   font-weight: 400;
   &.large-heading {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   &.small-heading {
@@ -45,7 +44,8 @@ header {
 }
 main {
   padding: 4rem;
-  height: 100%;
+
+  min-height: calc(100vh - 3rem);
   .icons {
     margin-top: 1rem;
     a {
@@ -63,3 +63,46 @@ main {
     }
   }
 }
+.about-info {
+  display: grid;
+  margin: 30px;
+  grid-template-areas:
+    "bioimage bio bio"
+    "job1 job2 job3";
+  grid-template-columns: repeat(3, 1fr);
+  .bio-image {
+    grid-area: bioimage;
+    border-radius: 50%;
+    margin: auto;
+    border: $secondary-color 3px solid;
+  }
+  .bio {
+    grid-area: bio;
+    font-size: 1rem;
+  }
+  .job-1 {
+    grid-area: job1;
+  }
+  .job-2 {
+    grid-area: job2;
+  }
+  .job-3 {
+    grid-area: job3;
+  }
+  .job {
+    background: darken($primary-color, 5);
+    padding: 0.5rem;
+    border-bottom: $secondary-color solid 2px;
+    margin: 7px;
+  }
+}
+
+#main-footer {
+  text-align: center;
+  padding: 1rem;
+  background: darken($primary-color, 10);
+  color: set-text-color($primary-color);
+  height: 3rem;
+}
+
+@import "media";
