@@ -199,6 +199,26 @@ main {
       border-color: #7a1818;
       transition: all 0.7s ease-out; }
 
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 1rem; }
+  .boxes div {
+    text-align: justify;
+    font-size: 1.5rem;
+    border: 3px black solid;
+    margin-bottom: 3rem;
+    padding: 1.5rem 2.5rem;
+    transition: all 0.7s ease-out; }
+    .boxes div:hover {
+      padding: 0.5rem 2.5rem;
+      background: #7a1818;
+      color: #e4e4e4; }
+      .boxes div:hover span {
+        color: #e4e4e4; }
+
 .btn, .btn-light, .btn-dark {
   display: block;
   padding: 0.5rem 1rem;
