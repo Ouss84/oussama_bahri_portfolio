@@ -42,11 +42,13 @@ header {
 .text-secondary {
   color: $secondary-color;
 }
+
 main {
   padding: 4rem;
 
   min-height: calc(100vh - 3rem);
   .icons {
+    text-align: right;
     margin-top: 1rem;
     a {
       padding: 0.5rem;
@@ -70,6 +72,7 @@ main {
     "bioimage bio bio"
     "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
   .bio-image {
     grid-area: bioimage;
     border-radius: 50%;
@@ -93,8 +96,49 @@ main {
     background: darken($primary-color, 5);
     padding: 0.5rem;
     border-bottom: $secondary-color solid 2px;
-    margin: 7px;
+    // margin: 7px;
   }
+}
+
+//projects
+.projects {
+  display: grid;
+  grid-gap: 0.7rem;
+  grid-template-columns: repeat(3, 1fr);
+
+  img {
+    width: 100%;
+    border: 5px solid grey;
+    &:hover {
+      opacity: 0.8;
+      border-color: $secondary-color;
+      @include easeOut;
+    }
+  }
+}
+
+// button styles
+.btn {
+  display: block;
+  padding: 0.5rem 1rem;
+  border: 0;
+  margin-bottom: 0.3rem;
+  &:hover {
+    background: $secondary-color;
+    color: set-text-color ($secondary-color);
+    @include easeOut;
+  }
+}
+.btn-light {
+  @extend .btn;
+  background: lighten($primary-color, 50);
+  color: $third-color;
+}
+
+.btn-dark {
+  @extend .btn;
+  background: darken($primary-color, 50);
+  color: $primary-color;
 }
 
 #main-footer {

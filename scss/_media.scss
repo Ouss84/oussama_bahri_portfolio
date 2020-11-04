@@ -3,6 +3,9 @@
   main#home h1 {
     margin-bottom: 10vh;
   }
+  .projects {
+    grid-template-columns: 1fr;
+  }
 }
 // small laptops and tablettes
 @include mediaMd {
@@ -12,6 +15,9 @@
     .large -heading {
       line-height: 1;
       margin-bottom: 1rem;
+    }
+    .icons {
+      text-align: center;
     }
   }
   ul.menu-nav,
@@ -41,10 +47,19 @@
       "job3";
     grid-template-columns: 1fr;
   }
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 // desktops and laptops
 @include mediaLg {
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 // widescreens
 @include mediaXl {
+  .projects {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
