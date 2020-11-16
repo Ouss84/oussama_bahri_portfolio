@@ -1,0 +1,438 @@
+
+Lappeenrannan teknillinen yliopisto
+School of Business and Management
+
+
+
+
+
+
+Software Development Skills
+
+Oussama Bahri, 0624081
+
+LEARNING DIARY, Front- End 2020-21 MODULE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Monday, September 28, 2020
+Learning Diary
+Tasks accomplished:
+I enrolled to the course and read the different introductory sections.
+I downloaded GIT and VSCode and all the recommended extensions.
+I started the learning diary and got around the different type of tasks that we will submit.
+Learning takeaways:
+The mandatory assignments for this course and how to complete these assignments.
+It is ok for us to google and check solution in stack overflow for example, however we need to understand the solution and if we still don’t, we can also go to forums.
+How Important the Version Control is for developer, and how to set up GIT.
+
+
+Tuesday, September 29, 2020
+Learning Diary
+Tasks accomplished:
+I installed node.js.
+Installing recommended VSCode extensions such as Live Server and prettier…
+Installing node sass and node.
+Setting up the npm script.
+Start working on the HTML.
+Sass script.
+Learning takeaways:
+Creating a simple page .
+Creating an HTML file.
+We will be diving into CSS3 (grid, flex, responsiveness..)
+Node Js is a JavaScript run time.
+NPM: Node Package Manager.
+The need to use Node sass because the browser doesn’t read the scss files.
+The relation between CSS3, SCSS and SASS.
+First git commit.
+Sass is a powerful tool that allow us to compile css on a larger scale and faster processing time.
+It is more interesting to have a responsive web application, the fact it is a well displayed on different type terminal make the web application more attractive and way more efficient and convenient.
+
+Wednesday, September 30, 2020
+Learning Diary
+Tasks accomplished:
+Getting back to how to set up node Sass.
+How to set up a workflow.
+Installing GitHub desktop and using it as main version control.
+Installing node Sass.
+Creating a git repository and adding all the work to it, and the commit it.
+Used the fontawsome.com
+Start developing my personal portfolio.
+Learning takeaways:
+-Learning how to organize our folder (different folder for different tools used).
+Why we create a SCSS file and how to install Sass to run it and compile it to CSS.
+NPM init and package json role.
+How to install packages using NPM.
+node_modules role.
+We use git ignores we take to our repository only the files that are needed (we don’t need dependencies to our git repository).
+How to link our JavaScript to the HTML file.
+Styling with SCSS.
+Transitioning with css.
+Declaration of a mixin and how to call it and use through the file.
+
+
+Thursday, October 1, 2020
+
+Learning Diary
+Tasks accomplished:
+CSS features : overlay, background, background opacity, wrapping up the background color in RGBA,use of the Z-index.
+Introducing the ‘after’ in sass and how it helps writing cleaner code.
+Creating partials with Scss to make the code more readable.
+GIT commit.
+Learning takeaways:
+More into @mixin and transition method and how to program using Scss.
+When working on Scss, if we want to link an image we have to use the path as we were working on css ? 
+How to set up an overlay.
+The use of ‘after’.
+How to create a partials and link them to the main Scss (use of the underscore and the extension scss, then adding the @import in the main.scss)
+
+Friday, October 2, 2020
+
+Learning Diary
+Tasks accomplished:
+Creating a specific file for the menu within the Scss folder and link it to the main Scss.
+Positioning the menu button.
+The use of cursor.
+Call back of easeOut.
+
+Learning takeaways:
+The importance of dividing different parts when styling with Sass when there is a  number of operations.
+How to position elements using pure CSS.
+When using the same configuration, the order in the import is crucial.
+How to stop the terminal (ctl+c).
+In case there is an issue reloading our page, try to restart the Sass.
+
+
+Monday, October 5, 2020
+
+Learning Diary
+Tasks accomplished:
+Start working on my own web page.
+Learning the basics of the web.
+Going back to what is the front-end and of what it is made off.
+
+
+
+Learning takeaways:
+What is exactly the front-end part of the web development: it is what the browser shows to the client side (user) using HTML, CSS and JavaScript.
+Introduction to HTML:
+	1- It defines the structure of the page.
+
+
+Tuesday, October 6, 2020
+
+Learning Diary
+Tasks accomplished:
+Learning about the Basic HTML.
+Trying to recreate some basic pages from scratches using only HTML.
+Working on my portfolio following the YouTube Tutorials.
+Learning takeaways:
+The elements, content and tags in HTML .
+Nesting elements.
+Block elements and inline elements.
+Empty elements .
+Attributes within elements .
+Boolean attributes.
+HTML document structure.
+Adding comments.
+Using the boilerplate in HTML.
+The Use of lists.
+The use of Div (grouping elements together in order to style them together)
+The difference between <div> and <span>. (<div> is a block container and <span> is inline container).
+The <img> tag and the <a> tag.
+Creating Tables (<table>, <tr>, <td>, <th>, <tbody>).
+
+Wednesday, October 7, 2020
+
+
+Learning Diary
+Tasks accomplished:
+Learning about the Intermediate HTML.
+Working on the project (part 3).
+Learning takeaways:
+Forms in HTML: Action and method attributes, Input tags and their attributes.
+Labels and their use.
+Form validations (presence validation ‘required’ and the data type ‘format’)
+Radio buttons and how to declare them (the use of the name so the HTML knows that we can only pick one choice, the value attribute, and the id)
+The drop down menu with the ‘select’ tag, the ‘option’ tag nested within.
+The ‘text area’.
+
+Thursday, October 8, 2020
+
+	
+Learning Diary
+Tasks accomplished:
+Basics CSS.
+Working on the portfolio project.
+Learning takeaways:
+The use of selector, property and value.
+Colors attributes system.
+Background set up.
+Border : width, color, and style.
+
+
+
+
+Friday, October 9, 2020
+
+Learning Diary
+
+Tasks accomplished:
+Basics CSS (part 2).
+Working on the portfolio project.
+Learning takeaways:
+Elements, Id and class selectors and the difference in using them.
+Google chrome inspector use.
+
+
+
+Monday, October 12, 2020
+
+
+Learning Diary
+
+Tasks accomplished:
+Basics CSS (part 3).
+Working on the portfolio project (following along with the second part in the Youtube tutorial).
+Learning takeaways:
+Inheritance, Specificity and the cascade.
+Specificity calculator (keegan.st)
+Specificity increasing order : type selector —> class, class attribute, pseudo- class  —> ID selector. 
+
+
+
+Tuesday, October 13, 2020
+
+
+Learning Diary
+
+Tasks accomplished:
+Back to the tutorial 1 of the project.
+What the project is composed by, and how it is animated.
+Getting started with the project by going through the principal technologies in it (HTML5, CSS3, SASS, and JAVASCRIPT).
+The structure of the project.
+Setting up the workflow.(npm, node-sass, package.json file)
+Script the Sass file and use it in my project.
+Starting with the main.scss folder.
+Git ignore file and moving all the node modules inside of it.
+Creating a GIT repository and adding all the work done so far.
+Moving the added documents from the staging area to the commit
+Learning takeaways:
+How HTM, CSS and JavaScript come together to create a web application.
+Sass and its dependencies.
+How to script a Sass file and link it to my project.
+How to run an npm script ( npm run “the name of the script”
+How to create a variable in Sass.
+We work only with the Scss file, we don’t touch the css.
+We include the compiled version in the HTML to render the page.
+We don’t need the node_modules to be part of our deployed solution.
+How to create a GIT repository and add elements to it with the command git add .
+Making commits to the repository with adding some comments.
+
+
+Wednesday, October 14, 2020
+
+Learning Diary
+
+Tasks accomplished:
+Creating the header part in the project HTMl file.
+Creating the menu button.
+Separating the branding and the menu navigation.
+Creating the menu navigation and its links using the <ul> tag and then the anchors inside every link.
+Creating the <main> section, and wrapping up the text in different classes.
+Using the <span>tag to single out the last name and give it a specific color.
+Using the font-awesome link to use the icons, and linking them to my project.
+Creating the icons in the main with the ‘fab fa-linkedin’, ‘fab fa-instagram’.
+Creating a javascript file and link it to the index.html.
+Using the lighten command in Sass. 
+Committing the changes to the GIT repo.
+Learning takeaways:
+How to structure a page.
+creating most of the part with css only , using classes to structure our project.
+Creating lists and nesting anchor tags within.
+The use of <span> tag to single out elements.
+How to link external scripts or links in the head of HTML document.
+How to create a javascript file and where exactly to link it in the html file.
+In scss, the * is used to select all the elements.
+Styling with sass.
+Nesting with Sass.
+What ‘rem’ in font size stand for.
+How to use the lighten command.
+
+
+
+Thursday, October 15, 2020
+
+
+Learning Diary
+
+Tasks accomplished:
+Working on the header.
+Working with the rgb, rgba color system.
+Styling the main.
+Nesting styling of Icons inside the main.
+Transitioning the hover over the icons.
+Creating a mixin ‘easeOut’ function.
+Set the overflow of the main to hidden, so no scrolling bars will appear.
+Margin top of the h1.
+Working on the background image.
+Learning takeaways:
+The z-index.
+The position of an element.
+How to target a specific class with the dot in front of the designation.
+The padding effects.
+How to nest styling inside some other elements.
+The ampersand & use in sass.
+Transitions.
+Declaring a transition as a function in Sass (creating @mixin ‘function name’ Outside and then call it with @include ‘function name’) 
+The use of ‘vh’ as a unit. 
+
+
+
+
+
+
+
+
+Friday, October 16, 2020
+
+Learning Diary
+
+Tasks accomplished:
+Working on the background. 
+Rapping the background color in RGBA.
+Positioning the text in accordance to the overlay using the Z-index.
+Using the pseudo element instead of the actual element in HTML.
+Creating a separate partial for scss and linking it to the main.scss.
+Learning takeaways:
+How to position an overlay.
+What is the RGBA in css.
+Z-index declaration and use.
+The use of pseudo element and where and how to position it in order to get the same result as using an actual element declared in HTML.
+Creating partials.
+
+
+Tuesday, October 20, 2020
+
+Learning Diary
+
+Tasks accomplished:
+Creating the scss menu file and start working on the menu button.
+Start working on the Js file in order to make the menu button functional.
+The use of QuerySelector to select elements and classes.
+Selecting all the elements of the menu to alter their show status. 
+Setting the initial state of the menu to false.
+Adding an event listener to the menu-button. 
+Creating a function to fire off with the event listener.
+Working on the rotation of the menu button.
+Learning takeaways:
+When importing files to the main.scss, the order of import is very important!!
+QuerySelector is to select elements on the DOM.
+QuerySelectorAll when there is multiple elements that we want to select together.
+The difference between the use of const and let when declaring variables in js.
+Adding a class with the ‘classList.add’ in javascript.
+
+
+Friday, October 23, 2020
+
+
+Learning Diary
+
+Tasks accomplished:
+Working on the overlay.
+Adding the menu and the branding section.
+Creating a delay function for the menu items.
+Learning takeaways:
+The translate3d property.
+How to style images.
+Creating a function with a for loop in Sass.
+
+
+Saturday, October 24, 2020
+
+Learning Diary
+
+Tasks accomplished:
+Finishing the overlay.
+Committing the menu overlay to GIT.
+Declaring the media queries (Sm, Md, Lg, Xl) with mixin.
+Making the page responsive.
+Learning takeaways:
+How to use media Queries to display contents across different monitor sizes.
+
+
+
+
+
+
+
+
+Sunday, October 25, 2020
+
+Learning Diary
+
+Tasks accomplished:
+Creating the function ‘set-text-color’ to make the website responsive to any change of the primary-color.
+Learning takeaways:
+Difference between the use of mixin and function.
+The Use of Grid in css.
+
+Monday, October 26, 2020
+
+Learning Diary
+
+Tasks accomplished:
+Start working on the About Me page.
+Moving the media queries to the bottom of the main scss file.
+Making the page responsive on medium and small medias by altering the grid proprieties.
+Learning takeaways:
+How to display elements using the grid.
+The calc propriety .
+
+Monday, November 2, 2020
+
+
+Learning Diary
+
+Tasks accomplished:
+Styling the projects page with grid.
+Styling the buttons by creating an inheritance property.
+Learning takeaways:
+Inheritance in css.
+
+
+Wednesday, November 4, 2020
+
+Learning Diary
+
+Tasks accomplished:
+Populating the contact page.
+Working on the responsiveness. 
+Committing the changes to the repository.
+Learning takeaways:
+The use of css flex (basics).
+
+
+Thursday, November 5, 2020
+
+Learning Diary
+
+Tasks accomplished:
+Pushing the local repository into GitHub.
+Adding the home page to the package.Json.
+Creating the deploy script.
+Learning takeaways:
+The remote add git command.
+The git push original
+
